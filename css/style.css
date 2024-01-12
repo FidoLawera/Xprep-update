@@ -145,13 +145,6 @@ header {
     font-weight: 500;
     line-height: 66px;
 }
-/*.title-style p {
-    margin: 0;
-    color: #ACACAD;
-    font-size: 25px;
-    font-weight: 500;
-    line-height: 24px
-}*/
 .title-style p {
     color: #DEE2E9;
     font-size: 30px;
@@ -291,7 +284,6 @@ header {
 }
 .features-item,
 .happy-traders {
-    /*padding: 40px 60px;*/
     padding: 30px;
     background: #100720;
     border: 4px solid #548cff;
@@ -341,15 +333,6 @@ header {
     line-height: 100%;
     margin: 0 0 10px;
 }
-/*.w1 {
-    max-width: 284px
-}
-.w2 {
-    max-width: 294px;
-}
-.w3 {
-    max-width: 295px;
-}*/
 .traders-info h4 {
     font-size: 20px;
     font-weight: 500;
@@ -364,7 +347,6 @@ header {
 }
 .traders-info {
     gap: 24px;
-    /*margin-bottom: 58px;*/
     margin-bottom: 30px;
 }
 .traders-info img {
@@ -431,6 +413,13 @@ footer {
 ::-webkit-scrollbar-thumb:hover {
   background: #ddd; 
 }
+video {
+    width: 100%;
+    max-height: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: block;
+}
 @media(max-width: 1240px) {
     .container2,
     .container3,
@@ -478,11 +467,6 @@ footer {
     }
 }
 @media(max-width: 767px) {
-    /*.w1,
-    .w2,
-    .w3 {
-        max-width: inherit;
-    }*/
     .grid-2,
     .grid-1 {
         grid-template-columns: 1fr;
